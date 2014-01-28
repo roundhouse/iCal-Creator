@@ -18,7 +18,7 @@ Pass in the following query strings to generate a proper .ics file (examples inl
 
 Example:
 
-http://josh.vm.local:5000/?start=2014-02-06&end=2014-02-07&location=537 SE Ash St., Portland OR
+[http://ical-creator.herokuapp.com/?start=2014-02-06&end=2014-02-07&location=1250%20E%20Burnside%20St,%20Portland%20OR](http://ical-creator.herokuapp.com/?start=2014-02-06&end=2014-02-07&location=1250%20E%20Burnside%20St,%20Portland%20OR)
 
 *Make sure to encode any data before passing it through, especially if it is going to contain any special characters.*
 
