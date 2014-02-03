@@ -21,7 +21,7 @@ Pass in the following query strings to generate a proper .ics file (examples inl
 
 `organizer` = STRING
 
-'timezone' = STRING ex.(America/Los_Angeles)
+`timezone` = STRING ex.(America/Los_Angeles)
 
 Example:
 
