@@ -1,20 +1,23 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    foreman (0.60.2)
+    dotenv (0.9.0)
+    foreman (0.63.0)
+      dotenv (>= 0.7)
       thor (>= 0.13.6)
-    icalendar (1.2.1)
+    icalendar (1.5.0)
     puma (2.7.1)
       rack (>= 1.1, < 2.0)
-    rack (1.4.1)
-    rack-protection (1.2.0)
+    rack (1.5.2)
+    rack-protection (1.5.2)
       rack
-    sinatra (1.3.3)
-      rack (~> 1.3, >= 1.3.6)
-      rack-protection (~> 1.2)
-      tilt (~> 1.3, >= 1.3.3)
-    thor (0.16.0)
-    tilt (1.3.3)
+    sinatra (1.4.4)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (~> 1.3, >= 1.3.4)
+    thor (0.18.1)
+    tilt (1.4.1)
+    tzinfo (0.3.38)
 
 PLATFORMS
   ruby
@@ -24,3 +27,4 @@ DEPENDENCIES
   icalendar
   puma
   sinatra
+  tzinfo (~> 0.3)

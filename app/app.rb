@@ -15,7 +15,6 @@ match '/' do
   end_date = DateTime.parse(params[:end])
   summary = params[:summary]
   description = params[:description]
-  # timezone = TZInfo::Timezone.get(params[:timezone])
   organizer = params[:organizer]
   location = params[:location]
 
@@ -23,7 +22,11 @@ match '/' do
   puts end_date
 
   cal = Calendar.new
-  # cal.add(timezone.ical_timezone(start_date))
+  
+  tzid = params[:timezone]
+  tz = TZInfo::Timezone.get tzid
+  timezone = tz.ical_timezone start_date
+  cal.add timezone
 
   cal.event do
     dtstart start_date

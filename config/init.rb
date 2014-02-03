@@ -3,7 +3,9 @@ require 'json'
 require 'date'
 require 'time'
 require 'icalendar'
+require 'tzinfo'
 require 'icalendar/tzinfo'
+
 
 # Various config options for running
 $stdout.sync = true
