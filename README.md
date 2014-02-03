@@ -27,7 +27,7 @@ Example:
 
 [http://ical-creator.herokuapp.com/?start=2014-02-06&end=2014-02-07&location=1250%20E%20Burnside%20St,%20Portland%20OR](http://ical-creator.herokuapp.com/?start=2014-02-06&end=2014-02-07&location=1250%20E%20Burnside%20St,%20Portland%20OR)
 
-timezone param needs to be in TZ format.such as: America/Los_Angeles, America/Detroit, America/New_York, etc... [http://en.wikipedia.org/wiki/List_of_tz_database_time_zones](TZ list)
+timezone param needs to be in TZ format.such as: America/Los_Angeles, America/Detroit, America/New_York, etc... [TZ list](http://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
 
 *Make sure to encode any data before passing it through, especially if it is going to contain any special characters.*
 
