@@ -2,6 +2,11 @@
 
 Generates iCal/.ics files based on query string data. Sets proper content-type and headers for forcing download. Compatible with iCal (iPhone), Outlook, etc..
 
+## How to run locally
+
+	$ bundle install
+	$ foreman start
+
 ## Usage
 
 Pass in the following query strings to generate a proper .ics file (examples inline):
